@@ -4,10 +4,12 @@ body {
 #active { /** id 선택자 우선순위 1 **/
     color: red;
 }
-a { /** tag, element 선택자 우선순위 3 **/
-    color: black;
+
+a { 
+   /**color: black;**/
     text-decoration: none;
 }
+
 a:hover {
     color: gray;
 }
