@@ -1,7 +1,10 @@
 <!doctype html>
 <html>
     <head>
-        <!-- Google tag (gtag.js) -->
+        <title>WEB1 - CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <!-- Google tag (gtag.js) START -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SPSE1RVZ6"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -9,47 +12,10 @@
             gtag('js', new Date());
             gtag('config', 'G-0SPSE1RVZ6');
         </script>
-        <title>WEB1 - CSS</title>
-        <meta charset="utf-8">
-        <style> /** 폰트 태그 사용할 때보다 유지보수에 용이, 가독성 또한 상승 **/
-            body {
-                margin: 0;
-            }
-            #active { /** id 선택자 우선순위 1 **/
-                color: red;
-            }
-            a { /** tag, element 선택자 우선순위 3 **/
-                color: black;
-                text-decoration: none;
-            }
-            a:hover {
-                color: gray;
-            }
-            h1 { /** tag, element 선택자 우선순위 3 **/
-                font-size: 45px;
-                text-align: center;
-                border-bottom: 1px solid gray;
-                margin: 0;
-                padding-bottom: 20px;
-            }
-            #grid ol {
-                border-right: 1px solid gray;
-                width: 100px;
-                margin: 0;
-                padding-top: 20px;
-                padding-left: 33px;
-            }
-            #grid{
-                display: grid;
-                grid-template-columns: 150px 1fr;
-            }
-            #grid #article{
-                padding-right: 20px;
-            }
-        </style>
+        <!-- Google tag (gtag.js) END -->
     </head>
     <body>
-        <h1><a href="index.html">WEB</a></h1>
+        <h1 style="padding-top: 20px;"><a href="index.html">WEB</a></h1>
         <div id="grid">
             <ol>
                 <li><a href="1.html">HTML</a></li>
