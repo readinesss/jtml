@@ -14,11 +14,11 @@ a:hover {
     color: gray;
 }
 h1 { /** tag, element 선택자 우선순위 3 **/
-    font-size: 45px;
+    font-size: 60px;
     text-align: center;
     border-bottom: 1px solid gray;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 #grid ol {
     border-right: 1px solid gray;
@@ -48,3 +48,8 @@ h1 { /** tag, element 선택자 우선순위 3 **/
         border-bottom: none;
     }
 }
+.embed-container {
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+    }
