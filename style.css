@@ -20,12 +20,12 @@ h1 { /** tag, element 선택자 우선순위 3 **/
     margin: 0;
     padding-bottom: 50px;
 }
-#grid ol {
-    border-right: 1px solid gray;
-    width: 100px;
+#grid ul {
+    width: 125px;
     margin: 0;
     padding-top: 20px;
-    padding-left: 33px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #grid{
     display: grid;
@@ -33,12 +33,15 @@ h1 { /** tag, element 선택자 우선순위 3 **/
 }
 #grid #article{
     padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-left: 1px solid gray;
 }
 @media(max-width:800px){
     #grid{
         display: block;
     }
-    #grid ol{
+    #grid ul{
         border-right: none;
     }
     #article {
